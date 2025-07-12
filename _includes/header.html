@@ -1,0 +1,57 @@
+<header class="header-wrapper">
+  <div class="header-container split-header">
+
+    <!-- Branding + Logo -->
+    <div class="lab-brand">
+      <div class="lab-logo">
+        <img src="{{ '/assets/images/logo_lab.png' | relative_url }}" alt="Lab Logo" />
+      </div>
+      <div>
+        <div class="lab-name">NeureonMindFlux</div>
+        <div class="lab-subtitle">Research Lab</div>
+      </div>
+    </div>
+
+ <!-- Mobile Menu Toggle -->
+<button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">☰</button>
+  
+  <!-- Centered icons (GitHub + Zenodo) -->
+<div class="lab-centered-icons" style="display: flex; align-items: center;">
+
+ <!-- GitHub -->
+<a href="https://github.com/Neureonmindflux-Research-Lab" target="_blank" title="View on GitHub">
+  <img src="{{ '/assets/images/github_icon_02.png' | relative_url }}" alt="GitHub"
+       style="height: 55px; margin-left: 48px;" />
+</a>
+
+<!-- Zenodo -->
+<a href="https://zenodo.org/search?q=Neureonmindflux" target="_blank" title="View on Zenodo" style="margin-left: 6px;">
+  <img src="{{ '/assets/images/zenodo_icon.png' | relative_url }}" alt="Zenodo"
+       style="height: 38px;" />
+</a>
+
+
+  <!-- SAM.gov Block -->
+  <div style="margin-left: 16px; display: flex; flex-direction: column; align-items: center;">
+    <a href="https://sam.gov" target="_blank" title="Registered in SAM.gov" style="text-decoration: none; color: inherit; display: flex; align-items: center;">
+      <img src="{{ '/assets/images/samgov_icon.png' | relative_url }}" alt="SAM.gov Logo"
+           style="height: 65px; margin-left: 2px;" />
+      <span style="white-space: nowrap; font-size: 1rem;"><strong>UEI ID:</strong>T9RELU7CEXD4</span>
+    </a>
+  </div>
+
+</div>
+
+
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about' | relative_url }}">About</a></li>
+        <li><a href="{{ '/publications' | relative_url }}">Projects</a></li>
+      </ul>
+    </nav>
+    
+   </div>
+</header>
